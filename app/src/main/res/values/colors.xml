@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#2E71F6</color>
+    <color name="color_primary_variant">#0047C2</color>
+    <color name="color_on_primary">#FFFFFF</color>
+
+    <color name="color_background">#FFFFFF</color>
+    <color name="color_surface">#E0E0E0</color>
+
+    <color name="color_player_o">#02E377</color>
+    <color name="color_player_x">#2E71F6</color>
+</resources>

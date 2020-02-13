@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="android:statusBarColor">@color/color_primary</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorPrimaryVariant</item>
+
+        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
+        <item name="materialAlertDialogTheme">@style/AppTheme.MaterialAlertDialog</item>
+    </style>
+
+    <style name="AppTheme.ActionBarTheme" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:textColorPrimary">@color/color_on_primary</item>
+        <item name="colorControlNormal">@color/color_on_primary</item>
+    </style>
+
+    <style name="AppTheme.MaterialAlertDialog.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/color_primary</item>
+        <item name="rippleColor">@color/color_primary_variant</item>
+        <item name="android:textColor">@color/color_on_primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="AppTheme.MaterialAlertDialog.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/color_primary_variant</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AppTheme.MaterialAlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:background">@color/color_background</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AppTheme.MaterialAlertDialog.Button</item>
+        <item name="buttonBarNegativeButtonStyle">
+            @style/AppTheme.MaterialAlertDialog.Button.TextButton
+        </item>
+        <item name="buttonBarNeutralButtonStyle">
+            @style/AppTheme.MaterialAlertDialog.Button.TextButton
+        </item>
+    </style>
+
+</resources>

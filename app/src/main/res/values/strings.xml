@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="game_draw">It\'s a draw.</string>
+    <string name="game_lose">Computer won.</string>
+    <string name="new_game">New Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="well_played">Well played!</string>
+    <string name="better_luck">Better luck next time!</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="developer_name">Sanchith Hegde</string>
+</resources>
