@@ -1,12 +1,10 @@
-<img src="https://github.com/SanchithHegde/tic-tac-toe-android/raw/master/img/icon.png" width="192" align="right" hspace="20" />
+<img src="https://github.com/SanchithHegde/tic-tac-toe-android/raw/main/img/icon.png" width="192" align="right" hspace="20" />
 
 # Tic-Tac-Toe (Android)
 
 ![Release](https://img.shields.io/github/v/release/SanchithHegde/tic-tac-toe-android?label=Version&style=for-the-badge)
 
 Tic-Tac-Toe game using the Monte Carlo Tree Search algorithm, implemented in Java. The MCTS algorithm makes the computer almost impossible to beat, thus the worst case scenario (for the computer) would be a draw.
-
-The latest release can be downloaded from the **[Releases page](https://github.com/SanchithHegde/tic-tac-toe-android/releases)**.
 
 ## Features:
 - Supports Player vs. Computer mode.
@@ -15,9 +13,6 @@ The latest release can be downloaded from the **[Releases page](https://github.c
 
 ## To-Do:
 - Add toggle to change theme manually.
-
-## Changelog
-You can find it in the **[Releases page](https://github.com/jahirfiquitiva/Frames/releases)**.
 
 ## References
 
@@ -39,4 +34,4 @@ Since this is my first Android app, the code is quite messy. If you find any err
 
 ## License 
 
-[GNU GPL v3](https://github.com/SanchithHegde/tic-tac-toe-android/blob/master/LICENSE.md)
+[GNU GPL v3](LICENSE)
